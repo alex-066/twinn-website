@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: auto;
+    width: 100%;
+
+    color: black;
+
+    &__logo-box {
+        padding: .3rem 2.8rem;
+        text-transform: uppercase;
+        border: 3px solid black;
+        font-size: 1.4rem;
+        letter-spacing: .3rem;
+    }
+
+    &__navbar {
+        margin-right: 36rem;
+
+        ul {
+            text-align: center;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                font-weight: 600;
+                padding: 1rem;
+            }
+        }
+    }
+
+    &__social-media {
+        font-size: 1.8rem;
+        letter-spacing: .2rem;
+    }
+}

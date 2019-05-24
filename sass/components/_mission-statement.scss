@@ -1,0 +1,30 @@
+.mission-statement {
+    display: flex;
+
+    &__side-left {
+        width: 40%;
+        height: 20rem;
+
+        padding-left: 4rem;
+
+        h2 {
+            font-size: 3rem;
+            align-self: center;
+            text-transform: uppercase;
+            letter-spacing: .2rem;
+        }
+    }
+
+    &__side-right {
+        width: 60%;
+        height: 20rem;
+
+        padding-right: 4rem;
+        
+        p {
+            font-size: 1.6rem;
+            font-weight: lighter;
+            line-height: 3.6rem;
+        }
+    }
+}
